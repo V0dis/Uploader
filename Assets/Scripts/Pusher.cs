@@ -34,7 +34,6 @@ public class Pusher : MonoBehaviour
 
     private void Push(InputAction.CallbackContext obj)
     {
-        Debug.Log("Push");
         _rigidbody.AddForce(Vector3.left * 100);
     }
 }
